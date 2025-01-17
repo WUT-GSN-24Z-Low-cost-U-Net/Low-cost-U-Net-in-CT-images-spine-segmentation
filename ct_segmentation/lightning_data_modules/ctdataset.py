@@ -1,3 +1,4 @@
+from ct_segmentation.data_modules.segmentationimagefolder import SegmentationImageFolder
 from torchvision import transforms
 from torchvision.transforms import Resize, ToTensor
 from torch.utils.data import DataLoader, random_split
