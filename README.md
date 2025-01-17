@@ -1,4 +1,4 @@
-# GSN-2024Z-project
+# Low-cost-U-Net-in-CT-images-spine-segmentation
 
 ***How to install***
 1. Download the repository
