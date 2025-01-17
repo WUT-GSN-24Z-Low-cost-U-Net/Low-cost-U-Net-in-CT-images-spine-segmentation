@@ -1,0 +1,12 @@
+max_epochs: 20
+check_val_every_n_epoch: 2
+log_every_n_steps: 20
+logger:
+  - _target_: pytorch_lightning.loggers.WandbLogger
+    project: "ct_model"
+    name: ${experiment_name}
+  - _target_: pytorch_lightning.loggers.TensorBoardLogger
+    save_dir: "lightning_logs"
+    name: "ct_model"
+accelerator: gpu
+precision: 16

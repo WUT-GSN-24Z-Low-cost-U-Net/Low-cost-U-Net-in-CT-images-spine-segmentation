@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - data: ctdataset
+  - model: pl_unet
+  - trainer: trainer
+
+experiment_name: "ct_segmentation_training"
+seed: 54
+
+hydra:
+  run:
+    dir: ./outputs/${experiment_name}/${now:%Y-%m-%d_%H-%M-%S}
