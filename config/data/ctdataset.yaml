@@ -1,10 +1,8 @@
 _target_: ct_segmentation.lightning_data_modules.ctdataset.CTDataset
 batch_size: 16
-zip_name: /content
 data_dir: /content/data/CT/png
 train_dir: /train_dir
 test_dir: /test_dir
-data_url: https://drive.google.com/1FWGQi6W8d7hWWoMkykhbqY_GUFKlltWp
 num_classes: 1
 padding: True
 image_small: True

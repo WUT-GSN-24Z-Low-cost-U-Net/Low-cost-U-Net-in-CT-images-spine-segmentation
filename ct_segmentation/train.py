@@ -11,7 +11,6 @@ import torch
 def train(cfg: DictConfig):
     print(f"Training experiment: {cfg.experiment_name}")
     dm = hydra.utils.instantiate(cfg.data)
-    dm.prepare_data()
     dm.setup()
     model = hydra.utils.instantiate(cfg.model)
     wandb.login()
