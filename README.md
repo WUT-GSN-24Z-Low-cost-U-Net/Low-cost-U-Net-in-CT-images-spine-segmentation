@@ -1,4 +1,4 @@
-# Low-cost-U-Net-in-CT-images-spine-segmentation
+# Low cost U Net in CT images spine segmentation
 This project was created for the GSN course during the 24Z semester at the Warsaw University of Technology.
 The project aims to create a low-cost U-Net with quantization, pruning, and attention mechanisms for the purpose of CT image spine segmentation.
 
